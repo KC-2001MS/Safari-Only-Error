@@ -1,0 +1,966 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F741727629FE50D10084E377 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F741727529FE50D10084E377 /* AppDelegate.swift */; };
+		F741727829FE50D10084E377 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F741727729FE50D10084E377 /* SceneDelegate.swift */; };
+		F741727B29FE50D10084E377 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F741727929FE50D10084E377 /* LaunchScreen.storyboard */; };
+		F741727E29FE50D10084E377 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F741727C29FE50D10084E377 /* Main.storyboard */; };
+		F741728729FE50D10084E377 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F741728629FE50D10084E377 /* AppDelegate.swift */; };
+		F741728A29FE50D10084E377 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F741728829FE50D10084E377 /* Main.storyboard */; };
+		F741729129FE50D10084E377 /* Safari Only Error Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = F741729029FE50D10084E377 /* Safari Only Error Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F741729B29FE50D10084E377 /* Safari Only Error Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = F741729A29FE50D10084E377 /* Safari Only Error Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F74172A129FE50D10084E377 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = F741725C29FE50D00084E377 /* Main.html */; };
+		F74172A229FE50D10084E377 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = F741725C29FE50D00084E377 /* Main.html */; };
+		F74172A329FE50D10084E377 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F741725E29FE50D00084E377 /* Icon.png */; };
+		F74172A429FE50D10084E377 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F741725E29FE50D00084E377 /* Icon.png */; };
+		F74172A529FE50D10084E377 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = F741725F29FE50D00084E377 /* Style.css */; };
+		F74172A629FE50D10084E377 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = F741725F29FE50D00084E377 /* Style.css */; };
+		F74172A729FE50D10084E377 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = F741726029FE50D00084E377 /* Script.js */; };
+		F74172A829FE50D10084E377 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = F741726029FE50D00084E377 /* Script.js */; };
+		F74172A929FE50D10084E377 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F741726129FE50D00084E377 /* ViewController.swift */; };
+		F74172AA29FE50D10084E377 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F741726129FE50D00084E377 /* ViewController.swift */; };
+		F74172AB29FE50D10084E377 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F741726229FE50D10084E377 /* Assets.xcassets */; };
+		F74172AC29FE50D10084E377 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F741726229FE50D10084E377 /* Assets.xcassets */; };
+		F74172AD29FE50D10084E377 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F741726429FE50D10084E377 /* SafariWebExtensionHandler.swift */; };
+		F74172AE29FE50D10084E377 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F741726429FE50D10084E377 /* SafariWebExtensionHandler.swift */; };
+		F74172AF29FE50D10084E377 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = F741726629FE50D10084E377 /* _locales */; };
+		F74172B029FE50D10084E377 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = F741726629FE50D10084E377 /* _locales */; };
+		F74172B129FE50D10084E377 /* images in Resources */ = {isa = PBXBuildFile; fileRef = F741726729FE50D10084E377 /* images */; };
+		F74172B229FE50D10084E377 /* images in Resources */ = {isa = PBXBuildFile; fileRef = F741726729FE50D10084E377 /* images */; };
+		F74172B329FE50D10084E377 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = F741726829FE50D10084E377 /* manifest.json */; };
+		F74172B429FE50D10084E377 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = F741726829FE50D10084E377 /* manifest.json */; };
+		F74172B529FE50D10084E377 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = F741726929FE50D10084E377 /* background.js */; };
+		F74172B629FE50D10084E377 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = F741726929FE50D10084E377 /* background.js */; };
+		F74172B729FE50D10084E377 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = F741726A29FE50D10084E377 /* content.js */; };
+		F74172B829FE50D10084E377 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = F741726A29FE50D10084E377 /* content.js */; };
+		F74172B929FE50D10084E377 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = F741726B29FE50D10084E377 /* popup.html */; };
+		F74172BA29FE50D10084E377 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = F741726B29FE50D10084E377 /* popup.html */; };
+		F74172BB29FE50D10084E377 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = F741726C29FE50D10084E377 /* popup.css */; };
+		F74172BC29FE50D10084E377 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = F741726C29FE50D10084E377 /* popup.css */; };
+		F74172BD29FE50D10084E377 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = F741726D29FE50D10084E377 /* popup.js */; };
+		F74172BE29FE50D10084E377 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = F741726D29FE50D10084E377 /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F741729229FE50D10084E377 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F741725629FE50D00084E377 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F741728F29FE50D10084E377;
+			remoteInfo = "Safari Only Error Extension (iOS)";
+		};
+		F741729C29FE50D10084E377 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F741725629FE50D00084E377 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F741729929FE50D10084E377;
+			remoteInfo = "Safari Only Error Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F74172C429FE50D10084E377 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F741729129FE50D10084E377 /* Safari Only Error Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F74172CB29FE50D10084E377 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F741729B29FE50D10084E377 /* Safari Only Error Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F741725D29FE50D00084E377 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		F741725E29FE50D00084E377 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		F741725F29FE50D00084E377 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		F741726029FE50D00084E377 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		F741726129FE50D00084E377 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F741726229FE50D10084E377 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F741726429FE50D10084E377 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		F741726629FE50D10084E377 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		F741726729FE50D10084E377 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		F741726829FE50D10084E377 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		F741726929FE50D10084E377 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		F741726A29FE50D10084E377 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		F741726B29FE50D10084E377 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		F741726C29FE50D10084E377 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		F741726D29FE50D10084E377 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		F741727229FE50D10084E377 /* Safari Only Error.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Safari Only Error.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F741727529FE50D10084E377 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F741727729FE50D10084E377 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F741727A29FE50D10084E377 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F741727D29FE50D10084E377 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F741727F29FE50D10084E377 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F741728429FE50D10084E377 /* Safari Only Error.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Safari Only Error.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F741728629FE50D10084E377 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F741728929FE50D10084E377 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F741728B29FE50D10084E377 /* Safari Only Error.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Safari Only Error.entitlements"; sourceTree = "<group>"; };
+		F741729029FE50D10084E377 /* Safari Only Error Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Safari Only Error Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F741729529FE50D10084E377 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F741729A29FE50D10084E377 /* Safari Only Error Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Safari Only Error Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F741729F29FE50D10084E377 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F74172A029FE50D10084E377 /* Safari Only Error.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Safari Only Error.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F741726F29FE50D10084E377 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F741728129FE50D10084E377 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F741728D29FE50D10084E377 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F741729729FE50D10084E377 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F741725529FE50D00084E377 = {
+			isa = PBXGroup;
+			children = (
+				F741725A29FE50D00084E377 /* Shared (App) */,
+				F741726329FE50D10084E377 /* Shared (Extension) */,
+				F741727429FE50D10084E377 /* iOS (App) */,
+				F741728529FE50D10084E377 /* macOS (App) */,
+				F741729429FE50D10084E377 /* iOS (Extension) */,
+				F741729E29FE50D10084E377 /* macOS (Extension) */,
+				F741727329FE50D10084E377 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F741725A29FE50D00084E377 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				F741726129FE50D00084E377 /* ViewController.swift */,
+				F741726229FE50D10084E377 /* Assets.xcassets */,
+				F741725B29FE50D00084E377 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		F741725B29FE50D00084E377 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F741725C29FE50D00084E377 /* Main.html */,
+				F741725E29FE50D00084E377 /* Icon.png */,
+				F741725F29FE50D00084E377 /* Style.css */,
+				F741726029FE50D00084E377 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F741726329FE50D10084E377 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				F741726429FE50D10084E377 /* SafariWebExtensionHandler.swift */,
+				F741726529FE50D10084E377 /* Resources */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		F741726529FE50D10084E377 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F741726629FE50D10084E377 /* _locales */,
+				F741726729FE50D10084E377 /* images */,
+				F741726829FE50D10084E377 /* manifest.json */,
+				F741726929FE50D10084E377 /* background.js */,
+				F741726A29FE50D10084E377 /* content.js */,
+				F741726B29FE50D10084E377 /* popup.html */,
+				F741726C29FE50D10084E377 /* popup.css */,
+				F741726D29FE50D10084E377 /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F741727329FE50D10084E377 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F741727229FE50D10084E377 /* Safari Only Error.app */,
+				F741728429FE50D10084E377 /* Safari Only Error.app */,
+				F741729029FE50D10084E377 /* Safari Only Error Extension.appex */,
+				F741729A29FE50D10084E377 /* Safari Only Error Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F741727429FE50D10084E377 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				F741727529FE50D10084E377 /* AppDelegate.swift */,
+				F741727729FE50D10084E377 /* SceneDelegate.swift */,
+				F741727929FE50D10084E377 /* LaunchScreen.storyboard */,
+				F741727C29FE50D10084E377 /* Main.storyboard */,
+				F741727F29FE50D10084E377 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		F741728529FE50D10084E377 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				F741728629FE50D10084E377 /* AppDelegate.swift */,
+				F741728829FE50D10084E377 /* Main.storyboard */,
+				F741728B29FE50D10084E377 /* Safari Only Error.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		F741729429FE50D10084E377 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				F741729529FE50D10084E377 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		F741729E29FE50D10084E377 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				F741729F29FE50D10084E377 /* Info.plist */,
+				F74172A029FE50D10084E377 /* Safari Only Error.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F741727129FE50D10084E377 /* Safari Only Error (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F74172C529FE50D10084E377 /* Build configuration list for PBXNativeTarget "Safari Only Error (iOS)" */;
+			buildPhases = (
+				F741726E29FE50D10084E377 /* Sources */,
+				F741726F29FE50D10084E377 /* Frameworks */,
+				F741727029FE50D10084E377 /* Resources */,
+				F74172C429FE50D10084E377 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F741729329FE50D10084E377 /* PBXTargetDependency */,
+			);
+			name = "Safari Only Error (iOS)";
+			productName = "Safari Only Error (iOS)";
+			productReference = F741727229FE50D10084E377 /* Safari Only Error.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F741728329FE50D10084E377 /* Safari Only Error (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F74172CC29FE50D10084E377 /* Build configuration list for PBXNativeTarget "Safari Only Error (macOS)" */;
+			buildPhases = (
+				F741728029FE50D10084E377 /* Sources */,
+				F741728129FE50D10084E377 /* Frameworks */,
+				F741728229FE50D10084E377 /* Resources */,
+				F74172CB29FE50D10084E377 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F741729D29FE50D10084E377 /* PBXTargetDependency */,
+			);
+			name = "Safari Only Error (macOS)";
+			productName = "Safari Only Error (macOS)";
+			productReference = F741728429FE50D10084E377 /* Safari Only Error.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F741728F29FE50D10084E377 /* Safari Only Error Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F74172C129FE50D10084E377 /* Build configuration list for PBXNativeTarget "Safari Only Error Extension (iOS)" */;
+			buildPhases = (
+				F741728C29FE50D10084E377 /* Sources */,
+				F741728D29FE50D10084E377 /* Frameworks */,
+				F741728E29FE50D10084E377 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Safari Only Error Extension (iOS)";
+			productName = "Safari Only Error Extension (iOS)";
+			productReference = F741729029FE50D10084E377 /* Safari Only Error Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		F741729929FE50D10084E377 /* Safari Only Error Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F74172C829FE50D10084E377 /* Build configuration list for PBXNativeTarget "Safari Only Error Extension (macOS)" */;
+			buildPhases = (
+				F741729629FE50D10084E377 /* Sources */,
+				F741729729FE50D10084E377 /* Frameworks */,
+				F741729829FE50D10084E377 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Safari Only Error Extension (macOS)";
+			productName = "Safari Only Error Extension (macOS)";
+			productReference = F741729A29FE50D10084E377 /* Safari Only Error Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F741725629FE50D00084E377 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					F741727129FE50D10084E377 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					F741728329FE50D10084E377 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					F741728F29FE50D10084E377 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					F741729929FE50D10084E377 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = F741725929FE50D00084E377 /* Build configuration list for PBXProject "Safari Only Error" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F741725529FE50D00084E377;
+			productRefGroup = F741727329FE50D10084E377 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F741727129FE50D10084E377 /* Safari Only Error (iOS) */,
+				F741728329FE50D10084E377 /* Safari Only Error (macOS) */,
+				F741728F29FE50D10084E377 /* Safari Only Error Extension (iOS) */,
+				F741729929FE50D10084E377 /* Safari Only Error Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F741727029FE50D10084E377 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F74172A329FE50D10084E377 /* Icon.png in Resources */,
+				F741727B29FE50D10084E377 /* LaunchScreen.storyboard in Resources */,
+				F74172A129FE50D10084E377 /* Main.html in Resources */,
+				F74172A729FE50D10084E377 /* Script.js in Resources */,
+				F74172AB29FE50D10084E377 /* Assets.xcassets in Resources */,
+				F741727E29FE50D10084E377 /* Main.storyboard in Resources */,
+				F74172A529FE50D10084E377 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F741728229FE50D10084E377 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F74172A429FE50D10084E377 /* Icon.png in Resources */,
+				F74172A629FE50D10084E377 /* Style.css in Resources */,
+				F741728A29FE50D10084E377 /* Main.storyboard in Resources */,
+				F74172A829FE50D10084E377 /* Script.js in Resources */,
+				F74172AC29FE50D10084E377 /* Assets.xcassets in Resources */,
+				F74172A229FE50D10084E377 /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F741728E29FE50D10084E377 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F74172B529FE50D10084E377 /* background.js in Resources */,
+				F74172BB29FE50D10084E377 /* popup.css in Resources */,
+				F74172B929FE50D10084E377 /* popup.html in Resources */,
+				F74172B129FE50D10084E377 /* images in Resources */,
+				F74172B329FE50D10084E377 /* manifest.json in Resources */,
+				F74172AF29FE50D10084E377 /* _locales in Resources */,
+				F74172B729FE50D10084E377 /* content.js in Resources */,
+				F74172BD29FE50D10084E377 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F741729829FE50D10084E377 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F74172B629FE50D10084E377 /* background.js in Resources */,
+				F74172BC29FE50D10084E377 /* popup.css in Resources */,
+				F74172BA29FE50D10084E377 /* popup.html in Resources */,
+				F74172B229FE50D10084E377 /* images in Resources */,
+				F74172B429FE50D10084E377 /* manifest.json in Resources */,
+				F74172B029FE50D10084E377 /* _locales in Resources */,
+				F74172B829FE50D10084E377 /* content.js in Resources */,
+				F74172BE29FE50D10084E377 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F741726E29FE50D10084E377 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F74172A929FE50D10084E377 /* ViewController.swift in Sources */,
+				F741727629FE50D10084E377 /* AppDelegate.swift in Sources */,
+				F741727829FE50D10084E377 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F741728029FE50D10084E377 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F74172AA29FE50D10084E377 /* ViewController.swift in Sources */,
+				F741728729FE50D10084E377 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F741728C29FE50D10084E377 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F74172AD29FE50D10084E377 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F741729629FE50D10084E377 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F74172AE29FE50D10084E377 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F741729329FE50D10084E377 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F741728F29FE50D10084E377 /* Safari Only Error Extension (iOS) */;
+			targetProxy = F741729229FE50D10084E377 /* PBXContainerItemProxy */;
+		};
+		F741729D29FE50D10084E377 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F741729929FE50D10084E377 /* Safari Only Error Extension (macOS) */;
+			targetProxy = F741729C29FE50D10084E377 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F741725C29FE50D00084E377 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F741725D29FE50D00084E377 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		F741727929FE50D10084E377 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F741727A29FE50D10084E377 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F741727C29FE50D10084E377 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F741727D29FE50D10084E377 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F741728829FE50D10084E377 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F741728929FE50D10084E377 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F74172BF29FE50D10084E377 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F74172C029FE50D10084E377 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F74172C229FE50D10084E377 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7AA87AZ875;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Safari Only Error Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KCs-codeReview1.Safari-Only-Error.Extension";
+				PRODUCT_NAME = "Safari Only Error Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F74172C329FE50D10084E377 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7AA87AZ875;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Safari Only Error Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KCs-codeReview1.Safari-Only-Error.Extension";
+				PRODUCT_NAME = "Safari Only Error Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F74172C629FE50D10084E377 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7AA87AZ875;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Safari Only Error";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KCs-codeReview1.Safari-Only-Error";
+				PRODUCT_NAME = "Safari Only Error";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F74172C729FE50D10084E377 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7AA87AZ875;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Safari Only Error";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KCs-codeReview1.Safari-Only-Error";
+				PRODUCT_NAME = "Safari Only Error";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F74172C929FE50D10084E377 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Safari Only Error.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7AA87AZ875;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Safari Only Error Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KCs-codeReview1.Safari-Only-Error.Extension";
+				PRODUCT_NAME = "Safari Only Error Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F74172CA29FE50D10084E377 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Safari Only Error.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7AA87AZ875;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Safari Only Error Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KCs-codeReview1.Safari-Only-Error.Extension";
+				PRODUCT_NAME = "Safari Only Error Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F74172CD29FE50D10084E377 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Safari Only Error.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7AA87AZ875;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Safari Only Error";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KCs-codeReview1.Safari-Only-Error";
+				PRODUCT_NAME = "Safari Only Error";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F74172CE29FE50D10084E377 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Safari Only Error.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7AA87AZ875;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Safari Only Error";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KCs-codeReview1.Safari-Only-Error";
+				PRODUCT_NAME = "Safari Only Error";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F741725929FE50D00084E377 /* Build configuration list for PBXProject "Safari Only Error" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F74172BF29FE50D10084E377 /* Debug */,
+				F74172C029FE50D10084E377 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F74172C129FE50D10084E377 /* Build configuration list for PBXNativeTarget "Safari Only Error Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F74172C229FE50D10084E377 /* Debug */,
+				F74172C329FE50D10084E377 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F74172C529FE50D10084E377 /* Build configuration list for PBXNativeTarget "Safari Only Error (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F74172C629FE50D10084E377 /* Debug */,
+				F74172C729FE50D10084E377 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F74172C829FE50D10084E377 /* Build configuration list for PBXNativeTarget "Safari Only Error Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F74172C929FE50D10084E377 /* Debug */,
+				F74172CA29FE50D10084E377 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F74172CC29FE50D10084E377 /* Build configuration list for PBXNativeTarget "Safari Only Error (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F74172CD29FE50D10084E377 /* Debug */,
+				F74172CE29FE50D10084E377 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F741725629FE50D00084E377 /* Project object */;
+}
