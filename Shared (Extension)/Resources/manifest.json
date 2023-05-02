@@ -20,20 +20,24 @@
 
     "content_scripts": [{
         "js": [ "content.js" ],
-        "matches": [ "*://example.com/*" ]
+        "matches": [ "<all_urls>" ]
     }],
 
     "action": {
-        "default_popup": "popup.html",
+        "default_title": "Safari Only Error",
         "default_icon": {
-            "16": "images/toolbar-icon-16.png",
-            "19": "images/toolbar-icon-19.png",
-            "32": "images/toolbar-icon-32.png",
-            "38": "images/toolbar-icon-38.png",
-            "48": "images/toolbar-icon-48.png",
-            "72": "images/toolbar-icon-72.png"
+            "16": "images/enabled_toolbar-icon/toolbar-icon-16a.png",
+            "19": "images/enabled_toolbar-icon/toolbar-icon-19a.png",
+            "32": "images/enabled_toolbar-icon/toolbar-icon-32a.png",
+            "38": "images/enabled_toolbar-icon/toolbar-icon-38a.png",
+            "48": "images/enabled_toolbar-icon/toolbar-icon-48a.png",
+            "72": "images/enabled_toolbar-icon/toolbar-icon-72a.png"
         }
     },
+    "options_ui" : {
+        "page": "options.html",
+        "open_in_tab": true
+    },
 
-    "permissions": [ ]
+    "permissions": ["storage"]
 }

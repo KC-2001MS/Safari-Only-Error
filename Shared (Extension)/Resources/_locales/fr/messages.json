@@ -4,7 +4,7 @@
         "description": "The display name for the extension."
     },
     "extension_description": {
-        "message": "Keeps links from opening new tabs by removing the _blank attribute",
+        "message": "Empêche les liens d'ouvrir de nouveaux onglets en supprimant l'attribut _blank",
         "description": "Description of what the extension does."
     },
     "HTML_title": {
@@ -16,35 +16,35 @@
         "description": "HTML_options"
     },
     "HTML_email": {
-        "message": "Email me",
+        "message": "Envoyez-moi un courriel",
         "description": "HTML_email"
     },
     "HTML_bug": {
-        "message": "Report a bug",
+        "message": "Signaler un bogue",
         "description": "HTML_bug"
     },
     "HTML_review": {
-        "message": "Leave a review",
+        "message": "Laisser un commentaire",
         "description": "HTML_review"
     },
     "HTML_reports_and_review": {
-        "message": "(Emailed bug reports get the best response time.)",
+        "message": "(Signalez les bogues par courriel en anglais pour obtenir une réponse immédiate.)",
         "description": "HTML_reports_and_review"
     },
     "HTML_enabled": {
-        "message": "Enabled",
+        "message": "Activé",
         "description": "HTML_enabled"
     },
     "HTML_enabled_contents_1": {
-        "message": "Uncheck this box if you want to temporarily disable <i>Safari Only Error</i> entirely (without disabling the extension...).",
+        "message": "Décochez cette case si vous souhaitez désactiver temporairement <i>Safari Only Error</i> entièrement (sans désactiver l'extension...).",
         "description": "HTML_enabled_contents_1"
     },
     "HTML_enabled_contents_2": {
-        "message": "Will only take effect on pages that are loaded after you change this setting.",
+        "message": "N'aura d'effet que sur les pages chargées après la modification de ce paramètre.",
         "description": "HTML_enabled_contents_2"
     },
     "HTML_enabled_contents_3": {
-        "message": "Enable <i>Safari Only Error</i>",
+        "message": "Activer <i>Safari Only Error</i>",
         "description": "HTML_enabled_contents_3"
     },
     "HTML_exceptions": {
@@ -52,27 +52,27 @@
         "description": "HTML_exceptions"
     },
     "HTML_exceptions_contents_1": {
-        "message": "Specify exceptions to <i>Safari Only Error</i>. The first policy (\"Allow new tabs from\") is a whitelist mode, in which case only pages in the whitelist can open links in new tabs. The second policy (\"Deny new tabs from\") is a blacklist mode, and pages in the blacklist are <i>prevented</i> from opening links in new tabs. Exceptions must be listed as complete domains (or subdomains).",
+        "message": "Spécifier les exceptions à <i>Safari Only Error</i>. La première politique (\"Autoriser les nouveaux onglets à partir de\") est un mode liste blanche, dans lequel seules les pages de la liste blanche peuvent ouvrir des liens dans de nouveaux onglets.  La deuxième politique (\"Refuser les nouveaux onglets\") est un mode liste noire, et les pages de la liste noire sont <i>empêchées</i> d'ouvrir des liens dans de nouveaux onglets. Les exceptions doivent être répertoriées en tant que domaines complets (ou sous-domaines).",
         "description": "HTML_exceptions_contents_1"
     },
     "HTML_exceptions_contents_3": {
-        "message": "Will only take effect on pages that are loaded after you change this setting.",
+        "message": "N'aura d'effet que sur les pages chargées après la modification de ce paramètre.",
         "description": "HTML_exceptions_contents_3"
     },
     "HTML_allow": {
-        "message": "Allow new tabs from:",
+        "message": "Autoriser les nouveaux onglets à partir de :",
         "description": "HTML_allow"
     },
     "HTML_deny": {
-        "message": "Deny new tabs from:",
+        "message": "Refuser les nouveaux onglets :",
         "description": "HTML_allow"
     },
     "HTML_save": {
-        "message": "Save Options",
+        "message": "Sauvegarder les options",
         "description": "HTML_save"
     },
     "HTML_saved": {
-        "message": "Options saved",
+        "message": "Sauvegardé",
         "description": "HTML_saved"
     }
 }

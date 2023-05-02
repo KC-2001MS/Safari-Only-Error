@@ -1,0 +1,93 @@
+/* Adjust left and right margins for easier viewing on iPhone */
+html {
+    font-size: 12px;
+}
+
+/* Adjust left and right margins for easier viewing on iPhone */
+body {
+    background-color: #fff;
+    background-image: url('images/icon128.png');
+    background-position: 0 5;
+    background-repeat: no-repeat;
+    /* Adjust left and right margins for easier viewing on iPhone */
+    font: normal clamp(1rem, -2vw + 2.25rem, 1.333rem) sans-serif;
+    width: 90%;
+    margin: 40px 5%;
+    /* Adjust left and right margins for easier viewing on iPhone */
+}
+
+h1 {
+    text-align: center;
+    /* Adjust left and right margins for easier viewing on iPhone */
+    font-size: 2rem;
+    text-shadow: 1px 1px 0 #FFF, -1px -1px 0 #FFF,
+        -1px 1px 0 #FFF, 1px -1px 0 #FFF,
+        0px 1px 0 #FFF, 0-1px 0 #FFF,
+        -1px 0 0 #FFF, 1px 0 0 #FFF;
+    /* Adjust left and right margins for easier viewing on iPhone */
+}
+
+legend {
+    font-weight: bold;
+}
+
+.fieldset {
+    border: solid 1px #ccc;
+    border-radius: 5px;
+    padding: 4px 8px;
+    margin-bottom: 5px;
+}
+
+#status {
+    /* Code changes for localization */
+    display: none;
+    padding: 0 5px;
+    font-size: 1rem;
+    /* Code changes for localization */
+    font-style: italic;
+}
+
+.top-links {
+    text-align: right;
+    /* Adjust left and right margins for easier viewing on iPhone */
+    font-size: 1rem;
+    /* Adjust left and right margins for easier viewing on iPhone */
+}
+
+.transparent-background {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    padding: 8px;
+}
+
+#exceptionTypeBackground {
+    display: inline-block;
+    z-index: 1;
+    position: relative;
+    left: 10px;
+    padding: 2px;
+    background: rgb(255, 255, 255);
+}
+
+#exceptions {
+    padding-top: 15px;
+    position: relative;
+    top: -15px;
+}
+
+/* Adjust left and right margins for easier viewing on iPhone */
+textarea {
+    width: 100%;
+    border: solid 1px #ccc;
+    border-radius: 5px;
+}
+
+/* Adjust left and right margins for easier viewing on iPhone */
+/* Code changes for localization */
+.clear {
+    clear: both;
+}
+
+.left {
+    float: left;
+}

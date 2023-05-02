@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F703750229FEBF9100DC688B /* lib in Resources */ = {isa = PBXBuildFile; fileRef = F703750129FEBF9100DC688B /* lib */; };
+		F703750329FEBF9100DC688B /* lib in Resources */ = {isa = PBXBuildFile; fileRef = F703750129FEBF9100DC688B /* lib */; };
 		F741727629FE50D10084E377 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F741727529FE50D10084E377 /* AppDelegate.swift */; };
 		F741727829FE50D10084E377 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F741727729FE50D10084E377 /* SceneDelegate.swift */; };
 		F741727B29FE50D10084E377 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F741727929FE50D10084E377 /* LaunchScreen.storyboard */; };
@@ -29,22 +31,22 @@
 		F74172AC29FE50D10084E377 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F741726229FE50D10084E377 /* Assets.xcassets */; };
 		F74172AD29FE50D10084E377 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F741726429FE50D10084E377 /* SafariWebExtensionHandler.swift */; };
 		F74172AE29FE50D10084E377 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F741726429FE50D10084E377 /* SafariWebExtensionHandler.swift */; };
-		F74172AF29FE50D10084E377 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = F741726629FE50D10084E377 /* _locales */; };
-		F74172B029FE50D10084E377 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = F741726629FE50D10084E377 /* _locales */; };
-		F74172B129FE50D10084E377 /* images in Resources */ = {isa = PBXBuildFile; fileRef = F741726729FE50D10084E377 /* images */; };
-		F74172B229FE50D10084E377 /* images in Resources */ = {isa = PBXBuildFile; fileRef = F741726729FE50D10084E377 /* images */; };
 		F74172B329FE50D10084E377 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = F741726829FE50D10084E377 /* manifest.json */; };
 		F74172B429FE50D10084E377 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = F741726829FE50D10084E377 /* manifest.json */; };
 		F74172B529FE50D10084E377 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = F741726929FE50D10084E377 /* background.js */; };
 		F74172B629FE50D10084E377 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = F741726929FE50D10084E377 /* background.js */; };
-		F74172B729FE50D10084E377 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = F741726A29FE50D10084E377 /* content.js */; };
-		F74172B829FE50D10084E377 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = F741726A29FE50D10084E377 /* content.js */; };
-		F74172B929FE50D10084E377 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = F741726B29FE50D10084E377 /* popup.html */; };
-		F74172BA29FE50D10084E377 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = F741726B29FE50D10084E377 /* popup.html */; };
-		F74172BB29FE50D10084E377 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = F741726C29FE50D10084E377 /* popup.css */; };
-		F74172BC29FE50D10084E377 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = F741726C29FE50D10084E377 /* popup.css */; };
-		F74172BD29FE50D10084E377 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = F741726D29FE50D10084E377 /* popup.js */; };
-		F74172BE29FE50D10084E377 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = F741726D29FE50D10084E377 /* popup.js */; };
+		F74172D229FE52020084E377 /* options.html in Resources */ = {isa = PBXBuildFile; fileRef = F74172CF29FE52020084E377 /* options.html */; };
+		F74172D329FE52020084E377 /* options.html in Resources */ = {isa = PBXBuildFile; fileRef = F74172CF29FE52020084E377 /* options.html */; };
+		F74172D429FE52020084E377 /* options.js in Resources */ = {isa = PBXBuildFile; fileRef = F74172D029FE52020084E377 /* options.js */; };
+		F74172D529FE52020084E377 /* options.js in Resources */ = {isa = PBXBuildFile; fileRef = F74172D029FE52020084E377 /* options.js */; };
+		F74172D629FE52020084E377 /* options.css in Resources */ = {isa = PBXBuildFile; fileRef = F74172D129FE52020084E377 /* options.css */; };
+		F74172D729FE52020084E377 /* options.css in Resources */ = {isa = PBXBuildFile; fileRef = F74172D129FE52020084E377 /* options.css */; };
+		F74172D929FE52230084E377 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = F74172D829FE52230084E377 /* content.js */; };
+		F74172DA29FE52230084E377 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = F74172D829FE52230084E377 /* content.js */; };
+		F74172DD29FE52B00084E377 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = F74172DB29FE52B00084E377 /* _locales */; };
+		F74172DE29FE52B00084E377 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = F74172DB29FE52B00084E377 /* _locales */; };
+		F74172DF29FE52B00084E377 /* images in Resources */ = {isa = PBXBuildFile; fileRef = F74172DC29FE52B00084E377 /* images */; };
+		F74172E029FE52B00084E377 /* images in Resources */ = {isa = PBXBuildFile; fileRef = F74172DC29FE52B00084E377 /* images */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +92,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F703750129FEBF9100DC688B /* lib */ = {isa = PBXFileReference; lastKnownFileType = folder; path = lib; sourceTree = "<group>"; };
 		F741725D29FE50D00084E377 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
 		F741725E29FE50D00084E377 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		F741725F29FE50D00084E377 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
@@ -97,14 +100,8 @@
 		F741726129FE50D00084E377 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F741726229FE50D10084E377 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F741726429FE50D10084E377 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
-		F741726629FE50D10084E377 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
-		F741726729FE50D10084E377 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
 		F741726829FE50D10084E377 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
 		F741726929FE50D10084E377 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
-		F741726A29FE50D10084E377 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
-		F741726B29FE50D10084E377 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
-		F741726C29FE50D10084E377 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
-		F741726D29FE50D10084E377 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
 		F741727229FE50D10084E377 /* Safari Only Error.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Safari Only Error.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F741727529FE50D10084E377 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F741727729FE50D10084E377 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -120,6 +117,12 @@
 		F741729A29FE50D10084E377 /* Safari Only Error Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Safari Only Error Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F741729F29FE50D10084E377 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F74172A029FE50D10084E377 /* Safari Only Error.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Safari Only Error.entitlements"; sourceTree = "<group>"; };
+		F74172CF29FE52020084E377 /* options.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = options.html; sourceTree = "<group>"; };
+		F74172D029FE52020084E377 /* options.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = options.js; sourceTree = "<group>"; };
+		F74172D129FE52020084E377 /* options.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = options.css; sourceTree = "<group>"; };
+		F74172D829FE52230084E377 /* content.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		F74172DB29FE52B00084E377 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		F74172DC29FE52B00084E377 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,14 +203,15 @@
 		F741726529FE50D10084E377 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				F741726629FE50D10084E377 /* _locales */,
-				F741726729FE50D10084E377 /* images */,
+				F703750129FEBF9100DC688B /* lib */,
+				F74172DB29FE52B00084E377 /* _locales */,
+				F74172DC29FE52B00084E377 /* images */,
 				F741726829FE50D10084E377 /* manifest.json */,
+				F74172D829FE52230084E377 /* content.js */,
 				F741726929FE50D10084E377 /* background.js */,
-				F741726A29FE50D10084E377 /* content.js */,
-				F741726B29FE50D10084E377 /* popup.html */,
-				F741726C29FE50D10084E377 /* popup.css */,
-				F741726D29FE50D10084E377 /* popup.js */,
+				F74172D129FE52020084E377 /* options.css */,
+				F74172CF29FE52020084E377 /* options.html */,
+				F74172D029FE52020084E377 /* options.js */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -414,14 +418,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F703750229FEBF9100DC688B /* lib in Resources */,
+				F74172D929FE52230084E377 /* content.js in Resources */,
 				F74172B529FE50D10084E377 /* background.js in Resources */,
-				F74172BB29FE50D10084E377 /* popup.css in Resources */,
-				F74172B929FE50D10084E377 /* popup.html in Resources */,
-				F74172B129FE50D10084E377 /* images in Resources */,
 				F74172B329FE50D10084E377 /* manifest.json in Resources */,
-				F74172AF29FE50D10084E377 /* _locales in Resources */,
-				F74172B729FE50D10084E377 /* content.js in Resources */,
-				F74172BD29FE50D10084E377 /* popup.js in Resources */,
+				F74172D429FE52020084E377 /* options.js in Resources */,
+				F74172DF29FE52B00084E377 /* images in Resources */,
+				F74172D629FE52020084E377 /* options.css in Resources */,
+				F74172DD29FE52B00084E377 /* _locales in Resources */,
+				F74172D229FE52020084E377 /* options.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,14 +434,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F703750329FEBF9100DC688B /* lib in Resources */,
+				F74172DA29FE52230084E377 /* content.js in Resources */,
 				F74172B629FE50D10084E377 /* background.js in Resources */,
-				F74172BC29FE50D10084E377 /* popup.css in Resources */,
-				F74172BA29FE50D10084E377 /* popup.html in Resources */,
-				F74172B229FE50D10084E377 /* images in Resources */,
 				F74172B429FE50D10084E377 /* manifest.json in Resources */,
-				F74172B029FE50D10084E377 /* _locales in Resources */,
-				F74172B829FE50D10084E377 /* content.js in Resources */,
-				F74172BE29FE50D10084E377 /* popup.js in Resources */,
+				F74172D529FE52020084E377 /* options.js in Resources */,
+				F74172E029FE52B00084E377 /* images in Resources */,
+				F74172D729FE52020084E377 /* options.css in Resources */,
+				F74172DE29FE52B00084E377 /* _locales in Resources */,
+				F74172D329FE52020084E377 /* options.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

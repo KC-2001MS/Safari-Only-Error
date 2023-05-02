@@ -1,0 +1,68 @@
+<html>
+
+<head>
+    <title>__MSG_HTML_title__</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="options.css">
+</head>
+
+
+<body>
+    <h1><i>__MSG_extension_name__</i> __MSG_HTML_options__</h1>
+    <div class="top-links">
+        <a href="mailto:iroiro.work1234@gmail.com?subject=Uncheck X">__MSG_HTML_email__</a>
+        |
+        <a href="https://apps.apple.com/jp/developer/keisuke-chinone/id1586934587">__MSG_HTML_bug__</a>
+        |
+        <a href="https://apps.apple.com/jp/developer/keisuke-chinone/id1586934587">__MSG_HTML_review__</a>
+        <br>
+        __MSG_HTML_reports_and_review__
+    </div>
+    <div class="transparent-background">
+        <fieldSet class="fieldset" role="group">
+            <legend>__MSG_HTML_enabled__</legend>
+
+            __MSG_HTML_enabled_contents_1__
+
+            <br><br>
+            __MSG_HTML_enabled_contents_2__
+
+            <br><br>
+            <input type="checkbox" id="enabled">__MSG_HTML_enabled_contents_3__</i></input>
+
+        </fieldset>
+
+        <fieldset class="fieldset" role="group">
+            <legend>__MSG_HTML_exceptions__</legend>
+
+            __MSG_HTML_exceptions_contents_1__
+
+            <br><br>
+            __MSG_HTML_exceptions_contents_3__
+
+            <br><br>
+            <span id="exceptionTypeBackground">
+                <select id="exceptionType">
+                    <option value="whitelist">__MSG_HTML_allow__</option>
+                    <option value="blacklist">__MSG_HTML_deny__</option>
+                </select>
+            </span>
+            <br>
+            <textarea id="exceptions" rows="15" cols="30"></textarea>
+
+        </fieldset>
+
+        <br>
+        <!-- Code changes for localization -->
+        <div class="clear">
+            <button id="save" class="left">__MSG_HTML_save__</button>
+            <div id="status" class="left">__MSG_HTML_saved__</div>
+        </div>
+        <!-- Code changes for localization -->
+    </div>
+</body>
+
+<script src="lib/jquery-3.6.4.min.js"></script>
+<script src="options.js"></script>
+
+</html>

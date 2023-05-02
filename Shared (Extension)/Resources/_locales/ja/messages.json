@@ -1,0 +1,79 @@
+{
+    "extension_name": {
+        "message": "Safari Only Error",
+        "description": "The display name for the extension."
+    },
+    "extension_description": {
+        "message": "デフォルトでチェックされているチェックボックスを外します。",
+        "description": "Description of what the extension does."
+    },
+    "HTML_title": {
+        "message": "Safari Only Errorオプション",
+        "description": "HTML_title"
+    },
+    "HTML_options": {
+        "message": "オプション",
+        "description": "HTML_options"
+    },
+    "HTML_email": {
+        "message": "連絡",
+        "description": "HTML_email"
+    },
+    "HTML_bug": {
+        "message": "バグ報告",
+        "description": "HTML_bug"
+    },
+    "HTML_review": {
+        "message": "レビュー",
+        "description": "HTML_review"
+    },
+    "HTML_reports_and_review": {
+        "message": "(英語のメールでバグ報告するとすぐ対応可能)",
+        "description": "HTML_reports_and_review"
+    },
+    "HTML_enabled": {
+        "message": "有効化",
+        "description": "HTML_enabled"
+    },
+    "HTML_enabled_contents_1": {
+        "message": "（拡張機能を無効にせずに、）一時的に、<i>Safari Only Error</i>を無効にしたい場合は、この欄のチェックを外します。",
+        "description": "HTML_enabled_contents_1"
+    },
+    "HTML_enabled_contents_2": {
+        "message": "設定変更した後に読み込んだページで適用されます。",
+        "description": "HTML_enabled_contents_2"
+    },
+    "HTML_enabled_contents_3": {
+        "message": "<i>Safari Only Error</i>を有効にする",
+        "description": "HTML_enabled_contents_3"
+    },
+    "HTML_exceptions": {
+        "message": "例外",
+        "description": "HTML_exceptions"
+    },
+    "HTML_exceptions_contents_1": {
+        "message": "<i>Safari Only Error</i>の例外を指定します。「以下のサイトで新しいタブを許可:」はホワイトリストで、このリストにあるページだけが新しいタブでリンクを開くことができます。「以下のサイトで新しいタブを拒否:」はブラックリストで、このリストにあるページは新しいタブでリンクを開くことができなくなります。ただし、完全なドメイン(またはサブドメイン)で登録する必要があります。",
+        "description": "HTML_exceptions_contents_1"
+    },
+    "HTML_exceptions_contents_3": {
+        "message": "設定変更した後に読み込んだページで適用されます。",
+        "description": "HTML_exceptions_contents_3"
+    },
+    "HTML_allow": {
+        "message": "以下のサイトで新しいタブを許可:",
+        "description": "HTML_allow"
+    },
+    "HTML_deny": {
+        "message": "以下のサイトで新しいタブを拒否:",
+        "description": "HTML_allow"
+    },
+    "HTML_save": {
+        "message": "オプションをセーブ",
+        "description": "HTML_save"
+    },
+    "HTML_saved": {
+        "message": "セーブされました",
+        "description": "HTML_saved"
+    }
+}
+
